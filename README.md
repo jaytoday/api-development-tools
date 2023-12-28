@@ -27,25 +27,24 @@ Contributions are most welcome. Categories are also open to suggestions!
 *  [References](#references)
 
 ## API Specification Languages
+- [OpenAPI (formerly known as Swagger)](https://github.com/OAI/OpenAPI-Specification)
 - [API Blueprint](https://github.com/apiaryio/api-blueprint)
 - [JSON Schema](http://json-schema.org/)
 - [RAML](https://raml.org/)
-- [OpenAPI (formerly known as Swagger)](https://github.com/OAI/OpenAPI-Specification)
 
 ## API Specification Tools
-- [Swagger Inspector](https://swagger.io/swagger-inspector/): Test and auto-generate OpenAPI documentation for any API.
+- [Swagger Inspector](https://swagger.io/tools/swagger-inspector/): Test and auto-generate OpenAPI documentation for any API.
 - [Swagger Editor](http://editor.swagger.io/): An editor for designing Swagger specifications.
 - [Swagger Tools and Integrations](https://swagger.io/open-source-integrations/): A list of libraries and frameworks serving the Swagger ecosystem.
-- [OpenAPI Spec Tooling](http://definitions.apievangelist.com/#Tools): A list of libraries and frameworks serving the OpenAPI ecosystem.
-- [API Studio](http://apistudio.io/). Write, mock, and share your Swagger specifications online.
+- [OpenAPI extension for VS Code](https://marketplace.visualstudio.com/items?itemName=42Crunch.vscode-openapi):  Visual Studio Code (VS Code) extension that provides support for the OpenAPI Specification.
+- [OpenAPI plugin for JetBrains IDEs](https://plugins.jetbrains.com/plugin/14837-openapi-swagger-editor): Jetbrains plugin that provides support for the OpenAPI Specification.
 - [Dredd](https://github.com/apiaryio/dredd): Validate API documentation written in API Blueprint against its backend implementation.
-- [Restlet Studio](https://restlet.com/modules/studio/): Web IDE for API Design.
 - [API Spec Converter](https://lucybot-inc.github.io/api-spec-converter/): Convert between different API spec formats.
-- [Prism](http://stoplight.io/platform/prism/): Supercharge any OAS file with mocking, transformations, validations, and more.
 - [Apimatic](https://www.apimatic.io/): Supports API description formats including Swagger, OAI format, RAML, API Blueprint, IO Docs, WADL, Postman Collections and HAR 1.4 and more
-- [Mulesoft Anypoint](https://anypoint.mulesoft.com/): Design and publish enterprise-grade APIs using RAML
-- [Sandbox](https://getsandbox.com/): Quick and easy mock RESTful API from API definitions
-- [Restunited](https://restunited.com/): Generate SDK, Documentation with Testing and Debugging
+- [OpenAPI Definition Designer](https://openapidesigner.com): Free visual OpenAPI3 definition creation and editing tool.
+- [Stoplight Studio](https://stoplight.io/studio/): Create, prototype, and share OpenAPI descriptions and JSON Schemas using a visual editor.
+- [Spectral](https://github.com/stoplightio/spectral): Define rulesets to lint YAML or JSON, including OpenAPI 2.x, 3.x and AsyncAPI
+- [Optic](https://www.useoptic.com/docs/openapi/generate-from-traffic): Verify the accuracy of your OpenAPI 3.x spec using real traffic, and automatically apply patches that keep it up-to-date
 
 ## API Specifications
 - [API Commons](http://apicommons.org/): A repository of language-agnostic API specifications / Data Models.
@@ -73,6 +72,7 @@ Contributions are most welcome. Categories are also open to suggestions!
 - [apistar](https://github.com/encode/apistar): A smart Web API framework, designed for Python3.
 - [sanic](https://github.com/channelcat/sanic): Sanic is a Flask-like Python 3.5+ web server that's written to go fast.
 - [hug](https://github.com/timothycrosley/hug): hug aims to make developing Python driven APIs as simple as possible, but no simpler.
+- [FastAPI](https://github.com/tiangolo/fastapi): FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints. 
 
 ### Javascript
 - [hapi.js](https://hapijs.com/): Web and services application framework for Node.js.
@@ -99,6 +99,7 @@ Contributions are most welcome. Categories are also open to suggestions!
 - [Goat](https://github.com/bahlo/goat): Minimalistic REST API server in Go.
 - [Resoursea](https://github.com/resoursea/api): REST framework for quickly writing resource based services.
 - [Zerver](https://github.com/cosiner/zerver): Zerver is a expressive, modular, feature completed RESTful framework.
+- [Fiber](https://github.com/gofiber/fiber): :zap:Fiber is an Express inspired web framework written in Go with :coffee: .
 
 ### Scala
 - [Colossus](https://github.com/tumblr/colossus): I/O and microservice library for Scala.
@@ -112,7 +113,7 @@ Contributions are most welcome. Categories are also open to suggestions!
 
 ### Java
 - [Rest.li](http://rest.li/): REST framework using type-safe bindings and asynchronous, non-blocking IO.
-- [Dropwizard](http://www.dropwizard.io/1.0.0/docs/): Framework for developing ops-friendly, high-performance, RESTful web services.
+- [Dropwizard](https://www.dropwizard.io/en/latest/): Framework for developing ops-friendly, high-performance, RESTful web services.
 - [Jersey](https://jersey.java.net/): RESTful web services in Java.
 - [Spring Boot](https://projects.spring.io/spring-boot/): RESTful Web Service using Spring, high-performance and little configuration needed.
 - [Metamug Mason](https://github.com/metamug/mason): Create REST APIs with JSP tags and SQL. Edit and hot deploy REST resources on the server.
@@ -145,6 +146,12 @@ Contributions are most welcome. Categories are also open to suggestions!
 - [Fractal](https://github.com/thephpleague/fractal): Fractal provides a presentation and transformation layer for complex data output, the like found in RESTful APIs, and works really well with JSON
 - [Yii2 Framework](https://github.com/yiisoft/yii2): Provides a whole set of tools to simplify the task of implementing RESTful Web Service APIs
 
+### R
+- [Plumber](https://www.rplumber.io/): API Framework to build APIs for simple R Functions
+
+### C#
+- [ASP.NET Web APIs](https://dotnet.microsoft.com/en-us/apps/aspnet/apis): Build secure REST APIs on any platform with C#
+
 ### Miscellaneous
 - [Dream Factory](https://github.com/dreamfactorysoftware/dreamfactory): Turn any database into an API platform.
 
@@ -152,10 +159,9 @@ Contributions are most welcome. Categories are also open to suggestions!
 
 ### General
 - [Swagger CodeGen](https://github.com/swagger-api/swagger-codegen): Generate client libraries automatically from a Swagger-compliant server.
-- [sdks.io](https://sdks.io/): Explore Automatically Generated SDKs.
 - [AutoRest](https://github.com/Azure/autorest): Generate client libraries for RESTful web services
-- [Unirest](http://unirest.io/): Lightweight HTTP-Request client libraries for several languages
 - [OpenAPI Generator](https://github.com/openapitools/openapi-generator): A community fork of Swagger Codegen to automatically generate API clients, server stubs and documentation for REST APIs given an OpenAPI/Swagger spec.
+- [at-your-service](https://atyourservice.awalsh.io/): A developer tool for API observability on the browser. Generate OpenAPI specifications and code from network traffic.
 
 ### Ruby
 - [Net::HTTP](https://apidock.com/ruby/Net/HTTP): An HTTP client API for Ruby.
@@ -175,49 +181,55 @@ Contributions are most welcome. Categories are also open to suggestions!
 - [Refit](https://github.com/paulcbetts/refit): The automatic type-safe REST library for .NET Core, Xamarin and .NET
 - [WebAnchor](https://github.com/mattiasnordqvist/Web-Anchor): Web Anchor provides type-safe, testable and flexible access to web resources.
 
+### .Dart
+- [Frog](https://dartfrog.vgv.dev/docs/overview): Dart Frog is built on top of shelf and mason and is inspired by many tools including remix.run, next.js, and express.js. 
+- [Serverpod](https://github.com/serverpod/serverpod): Serverpod is a next-generation app and web server, built for the Flutter community. It allows you to write your server-side code in Dart, automatically generate your APIs, and hook up your database with minimal effort. Serverpod is open-source, and you can host your server anywhere.
+
+
 ## API Documentation
 - [ReDoc](https://github.com/Rebilly/ReDoc): OpenAPI/Swagger-generated API Reference Documentation.
 - [Swagger UI](https://github.com/swagger-api/swagger-ui): Dynamically generate documentation from a Swagger-compliant API.
 - [Slate](https://github.com/lord/slate): Static site generated documentation for your API.
+- [DeveloperHub](https://developerhub.io/): Documentation tool to write, publish, review, analyse and collect feedback on personalised customer-facing API docs.
 - [prmd](https://github.com/interagent/prmd): JSON Schema tooling: scaffold, verify, and generate documentation from JSON Schema documents.
 - [Aglio](https://github.com/danielgtaylor/aglio): An API Blueprint renderer with theme support that outputs static HTML.
 - [Apiary](https://apiary.io/): Collaborative design, instant API mock, generated documentation, integrated code samples, debugging and automated testing.
 - [Readme](https://readme.io/): API Documentation Hosting.
-- [Embed curl](https://www.embedcurl.com/): Embeddable curl commands on the web.
-- [Gelato](https://gelato.io/): Create developer portals for your API.
 - [API Docs](https://api-docs.io/): Hosted public API documentation for OAS (Swagger) and RAML specs.
-- [Docula](https://docu.la/): Documentation using Github and OpenAPI standards.
 - [Docbox](https://github.com/tmcw/docbox): REST API documentation generator, using Markdown.
 - [widdershins](https://github.com/Mermade/widdershins): REST API documentation generator from OpenAPI 3.0 / Swagger 2.0 / AsyncAPI 1.x / Semoasa 0.1.0 definition
+- [Elements](https://github.com/stoplightio/elements): Web Components-based API documentation for OpenAPI 3.x/2.x
 
 ## API Clients
 
+### Open Source
+- [Hoppscotch](https://github.com/hoppscotch/hoppscotch): API client for REST, GraphQL, Websocket, SSE, Socket.IO and MQTT
+
 ### Hosted
-- [Hurl.it](https://www.hurl.it/): Web-based HTTP client.
 - [JSON Generator](http://www.json-generator.com/): Generate and host mock JSON data.
 
 ### Desktop
-- [HTTPie](https://httpie.org/): Command line HTTP client.
-- [HttpMaster](https://www.httpmaster.net/): Desktop tool for REST API testing.
-- [Paw](https://paw.cloud/): REST client for Mac.
 - [Postman](https://www.getpostman.com): Desktop API testing tool.
+- [Firecamp](https://firecamp.app): API Studio for WebSocket, Rest API and GraphQL.
+- [HTTPie](https://httpie.org/): Command line HTTP client.
+- [Paw](https://paw.cloud/): REST client for Mac.
 - [Insomnia](https://insomnia.rest/): REST API client for Mac, Windows, and Linux.
-- [Jsonium](http://jsonium.org/): Free REST client for JSON over HTTP protocols
-- [I'm only Resting](http://www.swensensoftware.com/im-only-resting): Windows GUI tool for REST API testing
+- [httpy](https://github.com/knid/httpy): Programmable Command line HTTP client.
 
 ## API Debugging and Mocking
 
 ### Hosted
 - [Beeceptor](https://beeceptor.com): An HTTP-proxy for rest APIs - inspect and build mock APIs.
 - [MockBin](https://mockbin.com/): Generate mock HTTP endpoints.
-- [RequestBin](https://requestb.in/): Inspect and debug webhook POST requests.
 - [httpbin](http://httpbin.org): Templated responses for testing various scenarios for HTTP requests.
+- [Prism](https://github.com/stoplightio/prism): a set of packages for API mocking and contract testing with OpenAPI v2 (formerly known as Swagger) and OpenAPI v3.x, including mock servers and a validation proxy.
+- [MockingCloud](https://mockingcloud.com): Generate full mock REST APIs with just OpenAPI yaml/json spec files.
+- [Svix Play](https://www.svix.com/play/): Easily inspect, test, and debug incoming webhooks.
 
 ### Desktop 
+- [Postman](https://www.getpostman.com/docs/postman/mock_servers/setting_up_mock): Desktop API client and mocking tool.
 - [Json-Server](https://github.com/typicode/json-server) Full fake REST API with zero coding.
 - [Mockoon](https://mockoon.com): Desktop API mocking tool.
-- [Postman](https://www.getpostman.com/docs/postman/mock_servers/setting_up_mock): Desktop API client and mocking tool.
-
 
 ## API Design Guides
 - [Google API Design Guide](https://cloud.google.com/apis/design/)
@@ -232,15 +244,14 @@ Contributions are most welcome. Categories are also open to suggestions!
 - [API Stylebook Design Guidelines](http://apistylebook.com/design/guidelines/)
 - [API Stylebook Design Topics](http://apistylebook.com/design/topics/)
 - [Adidas-group API Design Guide](https://github.com/adidas-group/api-guidelines)
+- [Azure API Design](https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design)
 
 ## API Publishing
 - [Mashape](https://www.mashape.com/): API Marketplace.
 
 ## API Gateways
-- [Ambassador API Gateway](https://www.getambassador.io/): Ambassador is a specialized control plane that translates Kubernetes annotations to Envoy configuration. All traffic is directly handled by the high-performance Envoy Proxy.
 - [AWS API Gateway](https://aws.amazon.com/api-gateway/): Traffic management, authorization and access control, monitoring, and API version management.
-- [API Umbrella](https://apiumbrella.io/): Proxy that sits in front of your APIs.
-- [APIAxle](https://github.com/apiaxle/apiaxle/): Proxy that sits in front of your APIs.
+- [Ambassador API Gateway](https://www.getambassador.io/): Ambassador is a specialized control plane that translates Kubernetes annotations to Envoy configuration. All traffic is directly handled by the high-performance Envoy Proxy.
 - [APIGrove](https://apigrove.github.io/apigrove/): API manager built in Java on top of Fuse ESB.
 - [Apigee127](https://github.com/apigee-127/a127-documentation/wiki/What-is-Apigee-127): nodejs based API Gateway
 - [Pushpin](http://pushpin.org): Proxy for both request/response or streaming (long poll) of responses
@@ -260,27 +271,29 @@ Contributions are most welcome. Categories are also open to suggestions!
 - [Oathkeeper](https://github.com/ory/oathkeeper): OIdentity & Access Proxy (IAP) that authorizes HTTP requests based on sets of rules. Integrates with ORY Hydra. 
 
 ## API Security
+- [Online OpenAPI/Swagger File Security Audit](https://apisecurity.io/tools/audit/): Free online static analysis of API contract files. Upload the file and get the report.
 - [API Security checklist](https://github.com/shieldfy/API-Security-Checklist): Checklist of the most important security countermeasures when designing, testing, and releasing your API.
 - [Ory Hydra](https://github.com/ory/hydra): OAuth2 server with OpenID Connect written in Go.
-- [Approov](https://approov.io/): Mobile App Attestation to ban API abuse by verifying the software that is accessing your API. User authentication is not enough!
+
+## API Web Scanners
+- [Cherrybomb](https://github.com/blst-security/cherrybomb): Stop half-done API specifications! Cherrybomb is a CLI tool that helps you avoid undefined user behaviour by validating your API specifications.
 
 ## API Monitoring
 - [Runscope](https://www.runscope.com/): API Performance Monitoring.
-- [Galileo](https://getgalileo.io/): API Monitoring Platform.
 - [Ping-API](https://ping-api.com/): Automated API Testing.
 
 ## API Testing
 - [Assertible](https://assertible.com): Continuously test and monitor your APIs after deployments and across environments.
 - [Pyresttest](https://github.com/svanoort/pyresttest): YAML based REST testing and API microbenchmarking tool
 - [OWASP Zaproxy](https://github.com/zaproxy/zaproxy): A tool to test your API for known security vulnerabilities, with a great CI integration.
+- [RestQA](https://github.com/restqa/restqa): Microservice API Testing tool focused on providing a great developer experience.
+- [Optic CI](https://www.useoptic.com/docs/diff-openapi): Test for breaking API changes in CI Pipelines
 
 ## API Developer Portal
 - [Tyk](https://tyk.io/features): API Developer Portal on top of API gateway, make your API gateway easier to be used by developers.
 - [APIMATIC](https://apimatic.io/developer-experience-portal): Instantly build an API Portal with SDKs, Live Code Samples, Test Cases, API Transformation and language specific Docs & Reference - tailored for your API.
-- [DWOLLA](https://developers.dwolla.com): Simple and powerful API for ACH transfers.
-- [Fusio](https://www.fusio-project.org): Fusio is an open source API management platform which helps to build and manage REST APIs. Fusio provides all tools to quickly build an API from different data sources yet it is possible to create complete customized responses.
-- [Gravitee](https://gravitee.io): Open source API platform, unleash the power of your APIs.
-- [Wicked Haufe](https://wicked.haufe.io): Open Source API Management. A full stack open source solution to API Management, based on Mashape's Kong, node.js, and docker.
+- [Optic Docs](https://www.useoptic.com): Share verified-accurate OpenAPI documentation with your consumers. With Optic they can subscribe to your API and get notified when it changes. 
+
 
 ## JSON Format Standards
 - [HAL](http://stateless.co/hal_specification.html)
@@ -288,9 +301,9 @@ Contributions are most welcome. Categories are also open to suggestions!
 - [JSON Schema](http://json-schema.org/)
 - [Hydra](http://www.hydra-cg.com/)
 - [Ion](https://github.com/ionwg/ion-doc)
+- [JSON-LD](https://json-ld.org/)
 
 ## Learning Resources
-- [Choosing an HTTP Status Code](http://racksburg.com/choosing-an-http-status-code/)
 - [REST in Practice](http://shop.oreilly.com/product/9780596805838.do)
 - [Roy Fielding's dissertation on REST](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)
 - [Best Practices for Designing a Pragmatic RESTful API](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
@@ -305,6 +318,8 @@ Contributions are most welcome. Categories are also open to suggestions!
 - [RESTful Web Services](http://shop.oreilly.com/product/9780596529260.do)
 - [RESTful Web APIs](http://shop.oreilly.com/product/0636920028468.do)
 - [The Ten Essentials for Good API Documentation](https://alistapart.com/article/the-ten-essentials-for-good-api-documentation)
+- [APIsecurity.io weekly newsletter](https://apisecurity.io)
+- [Testing Web APIs](https://www.manning.com/books/testing-web-apis)
 
 ## Blogs
 - [API Evangelist](http://apievangelist.com/blog/)
